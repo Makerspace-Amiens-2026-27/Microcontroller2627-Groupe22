@@ -11,7 +11,7 @@ Une phrase qui explique ce que fait le projet et pour qui.
 - **Documentation :** [site du projet](https://makerspace-amiens.github.io/template-project/) (sources dans [`docs/`](docs/))
 - **Fichiers du projet :** [`project/`](project/) (CAO, électronique, code)
 
-## Équipe
+## Équipe 22
 
-- Prénom Nom
-- Prénom Nom
+- Maxence DUHAMEL
+- Romain DELLIEUX
