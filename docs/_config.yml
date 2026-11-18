@@ -10,6 +10,7 @@ gh_edit_repository: "https://github.com/Makerspace-Amiens/template-project"
 
 # Thème
 theme: just-the-docs
+color_scheme: dark
 
 # Paramètres optionnels de "Just the Docs"
 just_the_docs:
