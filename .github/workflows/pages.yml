@@ -12,6 +12,7 @@ on:
       - "main"
     paths:
       - "docs/**"
+      - "project/ecad/**"
       - ".github/workflows/pages.yml"
 
   # Allows you to run this workflow manually from the Actions tab
@@ -37,6 +38,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+      - name: Copier les fichiers KiCad (project/ecad -> docs/assets/kicad)
+        # Le site affiche toujours la dernière version des cartes de project/ecad :
+        # plus besoin de recopier les fichiers à la main.
+        run: |
+          # Les espaces des noms de fichiers sont remplacés par des tirets
+          # ("projet maker.kicad_sch" devient "projet-maker.kicad_sch").
+          mkdir -p docs/assets/kicad
+          find project/ecad \( -name "*.kicad_sch" -o -name "*.kicad_pcb" \) -print0 |
+            while IFS= read -r -d '' f; do
+              cp "$f" "docs/assets/kicad/$(basename "$f" | tr ' ' '-')"
+            done
+          ls -l docs/assets/kicad
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
