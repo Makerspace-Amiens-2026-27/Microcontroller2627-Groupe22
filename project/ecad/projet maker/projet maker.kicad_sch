@@ -3102,16 +3102,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 142.24 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "084aaed4-753d-4f5d-bd6c-4c7ee60f5e59")
-	)
-	(wire
-		(pts
 			(xy 171.45 135.89) (xy 171.45 137.16)
 		)
 		(stroke
@@ -3162,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 144.78 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13015220-95cc-4608-8658-520674d023d1")
-	)
-	(wire
-		(pts
 			(xy 175.26 96.52) (xy 176.53 96.52)
 		)
 		(stroke
@@ -3209,6 +3189,16 @@
 			(type default)
 		)
 		(uuid "1cad3d71-1223-420e-acb6-81f9f5c9e2cb")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 142.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5d0e2d-e834-470e-b83d-c20ffdaada6d")
 	)
 	(wire
 		(pts
@@ -3269,6 +3259,16 @@
 			(type default)
 		)
 		(uuid "333a444d-5aa3-4a2c-84a1-2c367e48a144")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3794eabd-f937-4dba-846c-4d74e8138164")
 	)
 	(wire
 		(pts
@@ -3382,16 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 139.7 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76a0342b-feb2-4eee-92bc-5ff239794d71")
-	)
-	(wire
-		(pts
 			(xy 87.63 86.36) (xy 96.52 86.36)
 		)
 		(stroke
@@ -3409,16 +3399,6 @@
 			(type default)
 		)
 		(uuid "79dec38b-ce67-42da-b0d3-428541ecc660")
-	)
-	(wire
-		(pts
-			(xy 139.7 106.68) (xy 144.78 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d3aed42-150f-4563-ae5c-ec04d8ae51fc")
 	)
 	(wire
 		(pts
@@ -3489,6 +3469,16 @@
 			(type default)
 		)
 		(uuid "9890864a-781b-4332-b38b-a59e2179a559")
+	)
+	(wire
+		(pts
+			(xy 144.78 129.54) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8f67d8-87cb-427a-9906-92cc87aceeea")
 	)
 	(wire
 		(pts
@@ -3752,6 +3742,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a09772-2fce-4b4e-9897-a694cd278429")
+	)
+	(wire
+		(pts
 			(xy 147.32 104.14) (xy 139.7 104.14)
 		)
 		(stroke
@@ -3908,7 +3908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c3d99f3-cccf-4cee-b400-b9e91e633686")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 191.008 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3932,7 +3932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:R_1206"
 			(at 191.77 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3974,7 +3974,7 @@
 		(instances
 			(project "projet maker"
 				(path "/fd9da1ec-5015-47f4-923e-0114130c4978"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4016,7 +4016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:C_1206"
 			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4153,7 +4153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29aacbbc-5411-40a4-a50a-50ecc56baafb")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 75.184 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,7 +4177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:R_1206"
 			(at 76.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4219,7 +4219,7 @@
 		(instances
 			(project "projet maker"
 				(path "/fd9da1ec-5015-47f4-923e-0114130c4978"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4260,7 +4260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:C_1206"
 			(at 167.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4431,7 +4431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Switch:SW_Push"
+		(property "Footprint" "Makerspace-Amiens:SW_Push_KMR2"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4903,7 +4903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:C_1206"
 			(at 176.53 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5183,7 +5183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Switch:SW_Push"
+		(property "Footprint" "Makerspace-Amiens:SW_Push_KMR2"
 			(at 170.18 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 76.2 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -5794,7 +5794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c329d76e-137a-4580-a1b3-ba5c6ad5c949")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 195.072 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:R_1206"
 			(at 194.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5860,7 +5860,7 @@
 		(instances
 			(project "projet maker"
 				(path "/fd9da1ec-5015-47f4-923e-0114130c4978"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5901,7 +5901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Makerspace-Amiens:C_1206"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5982,7 +5982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Switch:Joystick_PTH"
+		(property "Footprint" "Makerspace-Amiens:Joystick"
 			(at 163.83 80.518 0)
 			(hide yes)
 			(show_name no)
